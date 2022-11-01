@@ -3,7 +3,7 @@ const items = ["Bread", "shampoo", "milk", "shampoo", "pasta", "toothpaste", "be
 let text = items.join(", " ) + " & " + items [items.length -7];
 document.getElementById('output').innerHTML = text;
 
-// word counter
+// character counter
  let textArea = document.getElementById("text-area");
  let result = document.getElementById("result");
  let limit = 50;
